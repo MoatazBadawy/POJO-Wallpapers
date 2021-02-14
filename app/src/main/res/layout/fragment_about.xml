@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.SettingFragment.AboutFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_hide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@color/black_alpha_0"
+        android:elevation="2dp"
+        android:layout_marginTop="-56dp"
+        app:theme="@style/ToolbarColor" />
+
+    <RelativeLayout
+        android:id="@+id/app_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:paddingTop="@dimen/_13sdp"
+            android:paddingBottom="@dimen/_9sdp"
+            android:textColor="#DD000000"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/app_version"
+            android:fontFamily="@font/robotmed" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dev1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:paddingTop="@dimen/_9sdp"
+            android:paddingBottom="@dimen/_9sdp"
+            android:textColor="#DD000000"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/instagram"
+            android:fontFamily="@font/robotmed" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app theme-->
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">@color/black</color>
+
+    <!--color's-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_alpha_0">#00000000</color>
+    <color name="mid_gray">#606165</color>
+    <color name="flush_mahogany">#C1272D</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="ebony">#091022</color>
+    <color name="jaffa">#E28643</color>
+
+    <!--white alpha-->
+    <color name="white_alpha_31">#4FFFFFFF</color>
+    <color name="white_alpha_11">#1BFFFFFF</color>
+    <color name="white_alpha_15">#26FFFFFF</color>
+    <color name="white_alpha_14">#24FFFFFF</color>
+    <color name="white_alpha_8">#14FFFFFF</color>
+</resources>

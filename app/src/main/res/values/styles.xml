@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ebony</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@drawable/start_screen</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!--Custom the text on TabLayout-->
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NavigationView"  parent="AppTheme">
+        <!-- don't forget to change it to alpha 14 -->
+        <item name="android:listDivider">@color/white_alpha_8</item>
+    </style>
+
+    <!-- To change the color for icons and title in toolbar -->
+    <style name="ToolbarColor" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+</resources>

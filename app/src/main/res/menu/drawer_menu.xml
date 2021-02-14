@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group_test" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_baseline_eco"
+            android:title="Go Premium" />
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_pc"
+            android:icon="@drawable/ic_pc"
+            android:title="@string/pc_wallpapers" />
+
+        <item
+            android:id="@+id/nav_4k"
+            android:icon="@drawable/ic_4k"
+            android:title="@string/_4k_wallpapers" />
+
+        <item
+            android:id="@+id/nav_editor"
+            android:icon="@drawable/ic_ed"
+            android:title="@string/editor_s_choices" />
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_vid"
+            android:title="@string/video_wallpapers"/>
+
+        <item
+            android:id="@+id/nav_panorama"
+            android:icon="@drawable/ic_baseline_panorama_horizontal_24"
+            android:title="@string/panorama_wallpapers"/>
+
+        <item
+            android:id="@+id/nav_islamic"
+            android:icon="@drawable/ic_islam"
+            android:title="@string/islamic_wallpapers"/>
+    </group>
+
+    <group android:id="@+id/group4" android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/ic_ca"
+        android:title="@string/categories"/>
+
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/ic_fav"
+            android:title="@string/saved"/>
+    </group>
+
+    <group android:id="@+id/group5" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_theme"
+            android:title="@string/share"/>
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help_amp_feedback"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"/>
+    </group>
+</menu>
